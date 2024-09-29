@@ -1,0 +1,246 @@
+
+
+@media only screen and (max-width: 1100px){
+    .analytics-banner{
+        padding-top: 150px;
+    }
+
+    .analytics_banner-boxes {
+        margin-top: 116px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px){
+    .single-banner-boxes .icon {
+    width: 50px;
+    height: 50px;
+    left: 15px;
+    top: 20px;
+    line-height: 50px;
+}
+.single-banner-boxes {
+    padding: 20px 20px 20px 85px;
+}
+
+.audiences_images img{
+    width: 100%;
+    object-fit: cover;
+}
+.audiences_images img:nth-child(2) {
+    position: relative;
+    margin-top: 20px;
+}
+
+
+.expectation_content{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.expectation_contact {
+    text-align: center;
+    margin: 20px 0 0;
+    max-width: 100%;
+    padding: 19px 20px;
+}
+
+.expectation_contact .btn-in{
+    position: relative;
+    right: 0;
+    top: 0;
+    margin-top: 15px;
+}
+.what_section-title {
+    margin-bottom: 45px;
+}
+.section-title,.what_section-title h2{
+    font-size: 20px;
+}
+
+.team_section,.expectation_section,.what_section,.audiences_section,.saying_section,.industries_section,.recent_section {
+    padding: 40px 0 !important;
+}
+.expectation_content h3 {
+    font-size: 34px;
+}
+.analytics_banner-boxes {
+    margin-top: 79px;
+}
+.analytics-banner {
+padding-top: 120px;
+}
+
+.industries-serve-box {
+    text-align: center;
+    padding: 15px 8px;
+    font-size: 14px;
+}
+
+.industries-serve-box .icon {
+    position: relative;
+    left: 0;
+    top: 0;
+    transform: translateY(0);
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 8px;
+}
+
+.saying_feedback-box .saying_feedback-desc{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.newsletter-content {
+    padding: 20px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.newsletter-content:before{
+    display: block;
+}
+.newsletter-area:before{
+    display: none;
+}
+.newsletter-content .newsletter-form {
+    padding-right: 0;
+}
+
+.newsletter-content .newsletter-form .input-newsletter {
+    height: 45px;
+    padding-left: 15px;
+    font-size: 12px;
+}
+
+.newsletter-content .newsletter-form button {
+    position: relative;
+    height: auto;
+    padding: 14px 30px 12px;
+    margin-top: 15px;
+    line-height: normal;
+    display: block;
+    width: 100%;
+    font-size: 13px;
+}
+.single-footer-widget  {
+    padding: 0 !important;
+    margin-bottom: 30px;
+}
+
+.pr-in{
+    padding-left:0 !important;
+}
+.copyright-area {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.burger {
+    display: flex;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    flex-direction: column;
+    gap: 6px;
+    justify-content: center;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+  }
+  .burger_line {
+    width: 32px;
+    height: 3px;
+    background-color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+  .burger.active .burger_line:nth-child(1) {
+    transform: translateY(9px) rotate(-45deg);
+  }
+  .burger.active .burger_line:nth-child(2) {
+    opacity: 0;
+  }
+  .burger.active .burger_line:nth-child(3) {
+    transform: translateY(-9px) rotate(45deg);
+  }
+
+  .navber_listing.active {
+    right: 0;
+    width: 300px;
+  }
+  .navber_listing {
+    display: block;
+    position: fixed;
+    top: 54px;
+    right: -300px;
+    width: 0;
+    height: 51%;
+    background-color: #0e314c;
+    transition: right 0.3s ease;
+    z-index: 1000;
+    padding: 20px 0  8px 29px;
+  }
+
+  #header.headroom.navbar-style-four {
+    background-color: #0e314c;
+    padding-top: 0;
+}
+
+.others-option .btn-in{
+    padding: 6px 12px !important;
+    margin-right: 5px;
+    font-size: 10px;
+    left: -116px;
+}
+
+
+.analytics-content{
+    text-align: center;
+    max-width: 100%;
+}
+
+
+.analytics-content h1 {
+    margin-bottom: 4px;
+    font-size: 31px;
+}
+
+.audiences_images{
+    margin-right: 0;
+    padding-bottom: 16px;
+}
+
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px){
+    .single-banner-boxes .icon {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 20px;
+    }
+.single-banner-boxes {
+    padding: 20px;
+}
+
+}

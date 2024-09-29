@@ -1,0 +1,55 @@
+.burger {
+    display: none;
+}
+
+.navbar-color-white#header.headroom.is-sticky {
+    background-color: rgb(14, 49, 76) !important;
+}
+
+#header.headroom.is-sticky {
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 28px 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+#header.headroom {
+    position: fixed;
+    width: 100%;
+    z-index: 9998;
+    top: 0px;
+    left: 0px;
+    background-color: transparent;
+    transition: all 0.3s ease 0s;
+    padding-top: 15px;
+}
+
+.startp-nav {
+    background: transparent;
+}
+.ms-auto {
+    margin-left: auto !important;
+    margin-right: 86px;
+}
+
+.navbar-nav .nav-item {
+    position: relative;
+    padding: 15px 0px;
+}
+
+.nav-item a {
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0px;
+    margin-left: 14px;
+    margin-right: 14px;
+    color: rgb(255, 255, 255) !important;
+}
+.headroom-bg{
+    background-color: rgb(14, 49, 76) !important;
+}
+
+.nav-item a:hover {
+    color: rgb(68, 206, 111) !important;
+}
+

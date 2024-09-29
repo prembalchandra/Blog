@@ -1,0 +1,131 @@
+.srcn-container {
+    width: 90%;
+    max-width: 1480px;
+    margin: 0px auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+}
+
+p:last-child {
+    margin-bottom: 0px;
+}
+
+a:focus, a:hover {
+    color: rgb(68, 206, 111);
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: rgb(14, 49, 76);
+    font-weight: 500;
+}
+
+a {
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+    color: rgb(14, 49, 76) !important;
+    outline: 0px !important;
+}
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+p {
+    color: rgb(96, 132, 164);
+    line-height: 1.8;
+}
+
+
+.what_section-title {
+    text-align: center;
+    max-width: 520px;
+    margin: 0px auto 30px;
+}
+
+.what_section-title h2 {
+    margin-bottom: 0px;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.bar {
+    height: 5px;
+    width: 90px;
+    background: rgb(205, 241, 216);
+    margin: 20px auto;
+    position: relative;
+    border-radius: 30px;
+}
+
+.bar::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: -2.7px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: rgb(68, 206, 111);
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-name: MOVE-BG;
+}
+
+@keyframes MOVE-BG {
+    0% {
+        transform: translateX(0px);
+    }
+
+    100% {
+        transform: translateX(88px);
+    }
+}
+
+
+
+
+
+
+
+.btn-in {
+    font-weight: 600;
+    font-size: 14px;
+    border: none;
+    position: relative;
+    border-radius: 4px;
+    z-index: 1;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+    padding: 15px 40px !important;
+    background-color: #ff2e6d;
+    color: #fff !important;
+}
+
+.btn-in:hover{
+    background: #44ce6f;
+}
+
+.btn-primary_in{
+    width: 100%;
+}
